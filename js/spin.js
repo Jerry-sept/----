@@ -49,7 +49,7 @@ function moveController(dog,imgLeft,leftRec){
 
 // 计数归零
 function numClear(leftRec,step){
-    limitNum = Math.floor(leftRec / 50) + step;
+    limitNum = Math.floor(leftRec / 50) + (step * 2);
     if(num >= limitNum){ num = 0 }
     return; 
 }
