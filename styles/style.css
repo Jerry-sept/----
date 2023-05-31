@@ -51,7 +51,7 @@ h1::before,h1::after{
     left: 100%;
     width: 50px;
     height: 54px;
-    background-image: url('/img/spinning-doge.jpg');
+    background-image: url('../img/spinning-doge.jpg');
 }
 
 #button{
