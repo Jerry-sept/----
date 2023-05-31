@@ -18,7 +18,6 @@ function createDog(){
     let bg = document.getElementById('doge-bg');
     bg.appendChild(newDog);
     dog = document.getElementById('doge'+num);
-    console.log("🚀 ~ file: spin.js:29 ~ createDog ~ num:", num)
     getDog(dog);
     num++;
 }
